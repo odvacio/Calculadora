@@ -18,6 +18,8 @@ while True:
         print(" ")
         print("RESULTADO: La resta de",n1,"-",n2,"es igual a",n1-n2)  
 
-
+    if option == 1:
+        print("")
+        print("RESULTADO: La suma de",n1,"+",n2,"es igual a",n1+n2)
     else:
         print("Opción incorrecta")
