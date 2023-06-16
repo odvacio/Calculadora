@@ -12,14 +12,25 @@ while True:
     4) Cambiar los números elegidos
     5) Apagar calculadora
     """)
-    opcion = int(input("Elige una opción: ") )   
-if option == 1:
+    opcion = int(input("Elige una opción: ") )     
+
+    if option == 1:
         print("")
         print("RESULTADO: La suma de",n1,"+",n2,"es igual a",n1+n2)
-     elif opcion == 2:
+        elif opcion == 2:
         print(" ")
         print("RESULTADO: La resta de",n1,"-",n2,"es igual a",n1-n2)  
+        elif opcion == 3:
+        print(" ")
+        print("RESULTADO: El producto de",n1,"*",n2,"es igual a",n1*n2)
+      elif opcion == 4:
+        n1 = float(input("Introduce tu primer número: ") )
+        n2 = float(input("Introduce tu segundo número: ") )
+      elif opcion == 5:
+        break
 
+    opcion = int(input("Elige una opción: ") )   
+   
     
     else:
         print("Opción incorrecta")
