@@ -12,7 +12,11 @@ while True:
     4) Cambiar los números elegidos
     5) Apagar calculadora
     """)
-    opcion = int(input("Elige una opción: ") )     
+    opcion = int(input("Elige una opción: ") )   
+
+     elif opcion == 2:
+        print(" ")
+        print("RESULTADO: La resta de",n1,"-",n2,"es igual a",n1-n2)  
 
 
     else:
